@@ -1,0 +1,51 @@
+.cont {
+  width: 660px;
+  height: 590px;
+  background: lightblue;
+  border-radius: 15px;
+  padding: 40px;
+  font-family: Arial;
+  box-shadow: 4px 4px 4px grey;
+}
+
+button {
+  height: 100px;
+  width: 160px;
+  border-radius: 15px;
+  border-color: dimgray;
+  border-width: 1px;
+  font-size: 50px;
+  color: rgb(63, 62, 62);
+  box-shadow: 4px 4px 4px grey;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(150%);
+}
+
+.field {
+  height: 100px;
+  width: 480px;
+  text-align: right;
+  line-height: 100px;
+  color: rgb(63, 62, 62);
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.digits {
+  background-color: azure;
+}
+
+.operator {
+  background-color: lightgrey;
+}
+
+.clear {
+  background-color: salmon;
+}
+
+.equal {
+  background-color: rgb(188, 245, 183);
+}
